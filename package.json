@@ -1,0 +1,31 @@
+{
+  "name": "mogy-http",
+  "main": "./index.js",
+  "version": "0.1.0",
+  "description": "HTTP Request Activity for Mogy",
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+    "mogy-activity",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/neyric/mogy-http.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.51.0"
+  },
+  "activities": {
+    "http": {
+      "defaultTaskHeartbeatTimeout": "NONE",
+      "defaultTaskScheduleToCloseTimeout": "NONE",
+      "defaultTaskScheduleToStartTimeout": "NONE",
+      "defaultTaskStartToCloseTimeout": "NONE",
+      "description": "Perform an HTTP Request"
+    }
+  }
+}
